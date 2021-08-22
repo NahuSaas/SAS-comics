@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  font-family: "roboto", san-serif;
+  font-weight: 700; }
+
+footer {
+  width: 100%;
+  background-color: gray;
+  color: white;
+  font-family: "roboto", san-serif; }
+
+.contenedorPie12 {
+  padding: 30px; }
+
+.contenedorPie1 {
+  display: flex;
+  justify-content: space-between; }
+
+.column1 {
+  max-width: 400px; }
+
+.column2 {
+  max-width: 400px; }
+
+.column3 {
+  max-width: 400px; }
+
+.row img {
+  width: 50px;
+  height: 50px;
+  margin-top: 22px; }
+
+.roww {
+  margin-top: 22px; }
+
+.roww img {
+  width: 50px;
+  height: 50px;
+  margin-left: 5vw; }
+
+.row2 {
+  margin-top: 22px;
+  max-width: 400px; }
+
+.row2 img {
+  width: 50px;
+  height: 50px;
+  margin-left: 4vw; }
+
+.pieFinal {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-right: 30px; }
+
+.bodyContacto {
+  background-image: url("../fondo/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-size: cover;
+  background-attachment: fixed; }
+
+input, textarea {
+  width: 100%;
+  margin: 10px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none; }
+
+.prueba {
+  margin-bottom: 20px; }
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+  margin-bottom: 30px; }
+
+#boton {
+  background: #31384a;
+  color: #fff;
+  padding: 20px; }
+
+.formMapa {
+  margin-top: 28px;
+  margin-bottom: 28px; }
+
+.imgComics {
+  width: 100% !important;
+  height: 100% !important;
+  margin-top: 0px !important; }
+
+.body {
+  background-image: url("../fondo/fondo.jpg"); }
+
+.carrousel-boostrap {
+  width: 980px; }
+
+.padreCarrousel {
+  display: flex;
+  justify-content: space-between; }
+
+.indexFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.divIndex {
+  width: 200px;
+  margin-right: 100px;
+  padding: 20px; }
+
+.tachado {
+  text-decoration: line-through; }
+
+.card {
+  margin: 30px 0px; }
+
+@media (max-width: 576px) {
+  .body {
+    background-image: url("../fondo/fondo.jpg"); }
+  .contactoLogo {
+    display: flex;
+    justify-content: center; }
+  .contactoLogo a img {
+    width: 72vw; }
+  .footerIndex {
+    background-color: gray;
+    color: white;
+    font-family: "roboto", san-serif;
+    margin-top: 20px; }
+  .bodyContacto {
+    background-image: url("../fondo/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-size: cover;
+    background-attachment: fixed; } }
+
+@media (min-width: 576px) and (max-width: 900px) {
+  .contactoLogo {
+    display: flex;
+    justify-content: center; }
+  .contactoLogo {
+    margin-left: 10vw; }
+  .bodyContacto {
+    background-image: url("../fondo/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-size: cover;
+    background-attachment: fixed; }
+    .bodyContacto .footerIndex {
+      width: 100%;
+      background-color: gray;
+      color: white;
+      font-family: "roboto", san-serif;
+      margin-top: 30px; }
+    .bodyContacto .contenedorPie12 {
+      width: 100%;
+      max-width: 768px;
+      padding: 30px; }
+    .bodyContacto .column1 {
+      max-width: 100px; }
+    .bodyContacto .column2 {
+      max-width: 50px; }
+    .bodyContacto .column3 {
+      max-width: 50px; }
+    .bodyContacto .row img {
+      width: 50px;
+      height: 50px;
+      margin: auto; }
+    .bodyContacto .roww img {
+      width: 50px;
+      height: 50px;
+      margin: auto; }
+    .bodyContacto .roww {
+      margin: auto; }
+    .bodyContacto .row2 {
+      margin: auto;
+      max-width: 50px; }
+    .bodyContacto .row2 img {
+      width: 50px;
+      height: 50px;
+      margin: auto; } }

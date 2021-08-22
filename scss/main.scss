@@ -1,0 +1,219 @@
+@import "estilos";
+@import "tipografia";
+@import "footer";
+@import "contacto";
+@import "comics";
+
+
+
+
+
+
+.body {
+    background-image: url("../fondo/fondo.jpg");
+}
+
+.carrousel-boostrap {
+    width: 980px;
+  }
+
+
+  .padreCarrousel {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .indexFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+
+  }
+
+
+  .divIndex {
+    width: 200px;
+    margin-right: 100px;
+    padding: 20px;
+
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+
+//cardimg
+
+.card {
+    margin: 30px 0px;
+}
+
+
+
+
+   // Celulares
+@media  (max-width: 576px )   {
+
+    .body {
+        background-image: url("../fondo/fondo.jpg");
+        }
+
+.contactoLogo {
+     display: flex;
+    justify-content: center;
+        }
+    .contactoLogo a img{
+        width: 72vw;
+
+
+
+    }
+
+
+    .footerIndex {
+
+        background-color: gray;
+        color: white;
+        font-family: $titulo;
+        margin-top: 20px;
+
+    }
+
+
+//contacto
+    .bodyContacto{
+        background-image: url("../fondo/fondo2.jpg");
+         background-repeat: no-repeat;
+         background-size: 100vw 100vh;
+         background-size: cover;
+         background-attachment: fixed;
+
+
+     }
+
+ 
+
+
+    }
+
+//Tablets/Ipads
+
+
+ @media  (min-width: 576px ) and (max-width:900px)   {
+    .contactoLogo {
+        display: flex;
+        justify-content: center;
+    }
+    .contactoLogo {
+       // width: 200px;
+         margin-left: 10vw;
+
+      }
+      //contacto
+.bodyContacto{
+    background-image: url("../fondo/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+     .footerIndex {
+          width: 100%;
+          background-color: gray;
+          color: white;
+         font-family: $titulo;
+         margin-top: 30px;
+
+    }
+
+      .contenedorPie12 {
+          width: 100%;
+          max-width: 768px;
+
+
+         padding: 30px;
+
+     }
+
+
+     .column1 {
+         max-width: 100px;
+
+
+      }
+     .column2 {
+          max-width: 50px;
+
+     }
+
+     .column3 {
+        max-width: 50px;
+
+
+    }
+
+  //face
+     .row img {
+       width: 50px;
+       height: 50px;
+       margin: auto;
+
+
+
+    }
+
+     //ig
+
+
+   .roww img {
+       width: 50px;
+       height: 50px;
+        margin:auto
+
+     }
+
+      .roww {
+        margin:auto
+
+
+      }
+
+
+    //wsp
+
+
+     .row2 {
+       margin: auto;
+
+
+       max-width: 50px;
+      }
+     .row2 img {
+        width: 50px;
+        height: 50px;
+        margin:auto;
+
+
+
+     }
+
+ }
+
+        
+
+         
+
+}
+
+
+
+
+
